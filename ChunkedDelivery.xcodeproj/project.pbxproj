@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8D0453B04FF3BB5BE0E9702 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8D042752D0A2C5149F2378B /* InfoPlist.strings */; };
+		F8D0453B848F2DC8DCDF989C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D04C2BE4B9A3984A40E7E7 /* UIKit.framework */; };
+		F8D045B52E4AC0769DCFFE80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D045B3B68C478B6231421A /* CoreGraphics.framework */; };
+		F8D045D06563155F21FF846B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8D043307836BE21A91C8A2D /* InfoPlist.strings */; };
+		F8D046075167C0B3DD64800A /* SBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D044EEED9155B2CC67B83B /* SBViewController.m */; };
+		F8D0466F13E8B10FAF3362C9 /* SBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D049A57D05DFF524DF6FBA /* SBAppDelegate.m */; };
+		F8D04879CC68B3A87DECF93F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D0439FE7AD323F246A407C /* XCTest.framework */; };
+		F8D04AD68112DD6DE2DD1C02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D04C2BE4B9A3984A40E7E7 /* UIKit.framework */; };
+		F8D04B96375F3133BC7B49BF /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D04FB9777EE4C00202E3F3 /* Main_iPhone.storyboard */; };
+		F8D04BA1B265EDCBF71A6DD0 /* ChunkedDeliveryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D043B154430F614B38DD23 /* ChunkedDeliveryTests.m */; };
+		F8D04BCAE9345A3BEEBBC6B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D04168A07874AED29750A9 /* Images.xcassets */; };
+		F8D04E64BB851A8E66A10669 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D04B21FA69813512C05873 /* Foundation.framework */; };
+		F8D04F654B58B65964993797 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D0418514E4AFCD73458483 /* Main_iPad.storyboard */; };
+		F8D04F69EE7EE9053F701643 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D044CF3B39F3B69ED96730 /* main.m */; };
+		F8D04FA6FD6A111809B21D62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D04B21FA69813512C05873 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8D0415E6DEAC3AEB3DF8411 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8D044BDCF7F77A5D8DB91B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8D047CB6B3261651A0D67E2;
+			remoteInfo = ChunkedDelivery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8D0408F4EC2B4C54F8CE328 /* SBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAppDelegate.h; sourceTree = "<group>"; };
+		F8D0410216E671DED5E69D7D /* ChunkedDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChunkedDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D041067AE3BE539BF27C68 /* ChunkedDeliveryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChunkedDeliveryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D0415B1156D22CBB226D57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		F8D04168A07874AED29750A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8D0439FE7AD323F246A407C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F8D043B154430F614B38DD23 /* ChunkedDeliveryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChunkedDeliveryTests.m; sourceTree = "<group>"; };
+		F8D044CF3B39F3B69ED96730 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8D044EEED9155B2CC67B83B /* SBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBViewController.m; sourceTree = "<group>"; };
+		F8D045B3B68C478B6231421A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F8D0464AAFB9824E7C8B003F /* ChunkedDelivery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "ChunkedDelivery-Info.plist"; sourceTree = "<group>"; };
+		F8D048033170661418709D5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8D049A57D05DFF524DF6FBA /* SBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAppDelegate.m; sourceTree = "<group>"; };
+		F8D049A71808B3265B63040A /* SBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBViewController.h; sourceTree = "<group>"; };
+		F8D04B21FA69813512C05873 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8D04C2BE4B9A3984A40E7E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8D04CA7CF14A4A707F4A083 /* ChunkedDelivery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChunkedDelivery-Prefix.pch"; sourceTree = "<group>"; };
+		F8D04D41A9001C16D3EB228F /* ChunkedDeliveryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "ChunkedDeliveryTests-Info.plist"; sourceTree = "<group>"; };
+		F8D04EC3519892F674233E21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8D04FE4F36C54F1DBFF310B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8D04906DE8D860732CF3FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D04FA6FD6A111809B21D62 /* Foundation.framework in Frameworks */,
+				F8D045B52E4AC0769DCFFE80 /* CoreGraphics.framework in Frameworks */,
+				F8D04AD68112DD6DE2DD1C02 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D04B693403A0D917AA1144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D04879CC68B3A87DECF93F /* XCTest.framework in Frameworks */,
+				F8D04E64BB851A8E66A10669 /* Foundation.framework in Frameworks */,
+				F8D0453B848F2DC8DCDF989C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8D040A22A4E0851C0AC0EF7 = {
+			isa = PBXGroup;
+			children = (
+				F8D041858C3254431284E27F /* Products */,
+				F8D045B54CF317171B4052FE /* Frameworks */,
+				F8D04A1B86595A3B5B128A2E /* ChunkedDelivery */,
+				F8D042A0A268397745096FBD /* ChunkedDeliveryTests */,
+			);
+			sourceTree = "<group>";
+		};
+		F8D041858C3254431284E27F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8D0410216E671DED5E69D7D /* ChunkedDelivery.app */,
+				F8D041067AE3BE539BF27C68 /* ChunkedDeliveryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8D042A0A268397745096FBD /* ChunkedDeliveryTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8D04BEA1ACC8567D59775BA /* Supporting Files */,
+				F8D043B154430F614B38DD23 /* ChunkedDeliveryTests.m */,
+			);
+			path = ChunkedDeliveryTests;
+			sourceTree = "<group>";
+		};
+		F8D044F5FCDA9D25194694C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8D0464AAFB9824E7C8B003F /* ChunkedDelivery-Info.plist */,
+				F8D042752D0A2C5149F2378B /* InfoPlist.strings */,
+				F8D044CF3B39F3B69ED96730 /* main.m */,
+				F8D04CA7CF14A4A707F4A083 /* ChunkedDelivery-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8D045B54CF317171B4052FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8D04B21FA69813512C05873 /* Foundation.framework */,
+				F8D045B3B68C478B6231421A /* CoreGraphics.framework */,
+				F8D04C2BE4B9A3984A40E7E7 /* UIKit.framework */,
+				F8D0439FE7AD323F246A407C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8D04A1B86595A3B5B128A2E /* ChunkedDelivery */ = {
+			isa = PBXGroup;
+			children = (
+				F8D044F5FCDA9D25194694C6 /* Supporting Files */,
+				F8D0408F4EC2B4C54F8CE328 /* SBAppDelegate.h */,
+				F8D049A57D05DFF524DF6FBA /* SBAppDelegate.m */,
+				F8D04168A07874AED29750A9 /* Images.xcassets */,
+				F8D04FB9777EE4C00202E3F3 /* Main_iPhone.storyboard */,
+				F8D0418514E4AFCD73458483 /* Main_iPad.storyboard */,
+				F8D049A71808B3265B63040A /* SBViewController.h */,
+				F8D044EEED9155B2CC67B83B /* SBViewController.m */,
+			);
+			path = ChunkedDelivery;
+			sourceTree = "<group>";
+		};
+		F8D04BEA1ACC8567D59775BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8D04D41A9001C16D3EB228F /* ChunkedDeliveryTests-Info.plist */,
+				F8D043307836BE21A91C8A2D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8D047CB6B3261651A0D67E2 /* ChunkedDelivery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D04B4DE73872DC462E0F60 /* Build configuration list for PBXNativeTarget "ChunkedDelivery" */;
+			buildPhases = (
+				F8D04A2A685908AE1A1B0AD1 /* Sources */,
+				F8D04906DE8D860732CF3FFC /* Frameworks */,
+				F8D04FD9E4B3D6D179D5422D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChunkedDelivery;
+			productName = ChunkedDelivery;
+			productReference = F8D0410216E671DED5E69D7D /* ChunkedDelivery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8D04BB9FFE95CE7FF312B5F /* ChunkedDeliveryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D044B0D6E5C219563BEE34 /* Build configuration list for PBXNativeTarget "ChunkedDeliveryTests" */;
+			buildPhases = (
+				F8D04174A88DBC0E5220A326 /* Sources */,
+				F8D04B693403A0D917AA1144 /* Frameworks */,
+				F8D043775F5E8A7DCE1667A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D04E22D5C658A0BB066E38 /* PBXTargetDependency */,
+			);
+			name = ChunkedDeliveryTests;
+			productName = ChunkedDeliveryTests;
+			productReference = F8D041067AE3BE539BF27C68 /* ChunkedDeliveryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8D044BDCF7F77A5D8DB91B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Stig Brautaset";
+			};
+			buildConfigurationList = F8D0442089B36329618871D3 /* Build configuration list for PBXProject "ChunkedDelivery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8D040A22A4E0851C0AC0EF7;
+			productRefGroup = F8D041858C3254431284E27F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8D047CB6B3261651A0D67E2 /* ChunkedDelivery */,
+				F8D04BB9FFE95CE7FF312B5F /* ChunkedDeliveryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8D043775F5E8A7DCE1667A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D045D06563155F21FF846B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D04FD9E4B3D6D179D5422D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D0453B04FF3BB5BE0E9702 /* InfoPlist.strings in Resources */,
+				F8D04BCAE9345A3BEEBBC6B0 /* Images.xcassets in Resources */,
+				F8D04B96375F3133BC7B49BF /* Main_iPhone.storyboard in Resources */,
+				F8D04F654B58B65964993797 /* Main_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8D04174A88DBC0E5220A326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D04BA1B265EDCBF71A6DD0 /* ChunkedDeliveryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D04A2A685908AE1A1B0AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D04F69EE7EE9053F701643 /* main.m in Sources */,
+				F8D0466F13E8B10FAF3362C9 /* SBAppDelegate.m in Sources */,
+				F8D046075167C0B3DD64800A /* SBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8D04E22D5C658A0BB066E38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8D047CB6B3261651A0D67E2 /* ChunkedDelivery */;
+			targetProxy = F8D0415E6DEAC3AEB3DF8411 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8D0418514E4AFCD73458483 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D04FE4F36C54F1DBFF310B /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F8D042752D0A2C5149F2378B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D048033170661418709D5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F8D043307836BE21A91C8A2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D04EC3519892F674233E21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F8D04FB9777EE4C00202E3F3 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D0415B1156D22CBB226D57 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8D0405B2D52452810671290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChunkedDelivery/ChunkedDelivery-Prefix.pch";
+				INFOPLIST_FILE = "ChunkedDelivery/ChunkedDelivery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F8D041BCC8AE6D36A779F935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8D045EACC289D708F5B3CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChunkedDelivery/ChunkedDelivery-Prefix.pch";
+				INFOPLIST_FILE = "ChunkedDelivery/ChunkedDelivery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F8D047B3712BAF3FF11DA559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8D049101039BEFFD23C7040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChunkedDelivery/ChunkedDelivery-Prefix.pch";
+				INFOPLIST_FILE = "ChunkedDeliveryTests/ChunkedDeliveryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		F8D04F613C2E79CEDECB3136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChunkedDelivery/ChunkedDelivery-Prefix.pch";
+				INFOPLIST_FILE = "ChunkedDeliveryTests/ChunkedDeliveryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8D0442089B36329618871D3 /* Build configuration list for PBXProject "ChunkedDelivery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D041BCC8AE6D36A779F935 /* Debug */,
+				F8D047B3712BAF3FF11DA559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D044B0D6E5C219563BEE34 /* Build configuration list for PBXNativeTarget "ChunkedDeliveryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D04F613C2E79CEDECB3136 /* Debug */,
+				F8D049101039BEFFD23C7040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8D04B4DE73872DC462E0F60 /* Build configuration list for PBXNativeTarget "ChunkedDelivery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D0405B2D52452810671290 /* Debug */,
+				F8D045EACC289D708F5B3CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8D044BDCF7F77A5D8DB91B0 /* Project object */;
+}
