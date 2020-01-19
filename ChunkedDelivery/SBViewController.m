@@ -7,13 +7,13 @@
 //
 
 #import "SBViewController.h"
-#import <SBJson4.h>
+#import <SBJson5.h>
 
 @interface SBViewController ()< NSURLSessionDataDelegate >
 
 @property (weak) IBOutlet UITextField *urlField;
 @property (weak) IBOutlet UITextView *textView;
-@property (strong) SBJson4Parser *parser;
+@property (strong) SBJson5Parser *parser;
 
 @end
 
@@ -46,7 +46,7 @@
         });
     };
 
-    self.parser = [SBJson4Parser unwrapRootArrayParserWithBlock:block
+    self.parser = [SBJson5Parser unwrapRootArrayParserWithBlock:block
                                                    errorHandler:eh];
 
     NSURLSession *urlSession = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]
@@ -63,16 +63,16 @@
     didReceiveData:(NSData *)data {
 
     switch ([self.parser parse:data]) {
-        case SBJson4ParserError:
+        case SBJson5ParserError:
             NSLog(@"Found an error");
             [session invalidateAndCancel];
             self.parser = nil;
             break;
-        case SBJson4ParserComplete:
-        case SBJson4ParserStopped:
+        case SBJson5ParserComplete:
+        case SBJson5ParserStopped:
             self.parser = nil;
             break;
-        case SBJson4ParserWaitingForData:
+        case SBJson5ParserWaitingForData:
             NSLog(@"Waiting for more data!");
             break;
     }
