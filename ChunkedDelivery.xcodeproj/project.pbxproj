@@ -214,13 +214,13 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
+				Base,
 			);
 			mainGroup = F8D040A22A4E0851C0AC0EF7;
 			productRefGroup = F8D041858C3254431284E27F /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
 				F8D047CB6B3261651A0D67E2 /* ChunkedDelivery */,
@@ -498,6 +498,7 @@
 				F8D049101039BEFFD23C7040 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8D04B4DE73872DC462E0F60 /* Build configuration list for PBXNativeTarget "ChunkedDelivery" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +507,7 @@
 				F8D045EACC289D708F5B3CF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
